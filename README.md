@@ -121,10 +121,10 @@ To decrypt a Rail Fence Cipher message:
 
 ### Example of Using Rail Fence Cipher Application
 #### Encryption
-![example_1](https://github.com/noraliu1212/INCS741/assets/71296598/82572c01-751b-4c02-ba59-f5904ddac2a5)
+![example_1](https://github.com/noraliu1212/INCS741/blob/main/example_1.png)
 
 #### Decryption
-![example_2](https://github.com/noraliu1212/INCS741/assets/71296598/f2808257-069b-41c8-8882-f8b10f1639a3)
+![example_2](https://github.com/noraliu1212/INCS741/blob/main/example_2.png))
 
 ### Step 6 (Optional) Cleanup
 If you want to stop the Docker container, you could use `Ctrl + c` to stop.
