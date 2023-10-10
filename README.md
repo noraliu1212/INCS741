@@ -1,4 +1,77 @@
 # INCS741 Group Assignment: Implementation of Rail Fence Cipher 
+# README.md file Group Memembers: Nora Liu, Parker Cheng, Yejun Wang
+## Step1 Installation Docker
+Open the terminal in your Virtual Machine; we are using Ubuntu 20.04 Desktop LTS, use following command lines to install docker: 
+
+1. Use command refreshes the list of available packages
+```
+sudo apt update
+```
+
+2. Install a few prerequisite packages which let apt use packages over HTTPS
+```
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
+```
+
+3. Add the GPG key for the official Docker repository to your system
+```
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+```
+
+4. Add the Docker repository to APT sources
+```
+sudo add-apt-repository
+``` 
+5. install from the Docker repo
+```
+apt-cache policy docker-ce
+```
+
+6. Get the latest version of docker pakages
+```
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+```
+
+After this, you should have the latest docker packages installed. you can use following command to check the docker version.
+```
+sudo docker -v
+```
+
+## Step 2 Download Application Python Code app.py and docker file
+
+You can download them from `http://34.28.177.100:3333/` Using following login information: 
+
+```
+username:1
+password:1
+```
+
+The necessary files are under data directory
+
+<img width="458" alt="Screenshot 2023-10-09 162358" src="https://github.com/Parkerpupppp/741-readme/assets/123425669/fcb20913-5bc7-4884-98df-ce62d61ee8ab">
+
+## Step 3 Build Docker Images
+
+We need to build docker images using our docker file.
+
+First, we should go to the directory where we have our docker file.
+
+Use `cd` command to change the directory to the required dir
+
+<img width="161" alt="Screenshot 2023-10-09 172212" src="https://github.com/Parkerpupppp/741-readme/assets/123425669/ec269c4c-749a-4f0e-9a11-ce1ac53071a7">
+
+Use the next command to build the docker image
+```
+sudo docker build --tag rf-docker
+``` 
+You could use command to check if you have the docker image ready
+```
+sudo docker images
+```
+You will see something like this
+
+<img width="372" alt="Screenshot 2023-10-09 172716" src="https://github.com/Parkerpupppp/741-readme/assets/123425669/11ddb33d-8cbb-40c7-a8df-600dae3759f1">
+
 ## Step 4 Run a Docker Container
 Once the image is built, you can run a Docker container from it using the docker run command(Linux):
 ```
