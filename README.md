@@ -39,7 +39,7 @@ After this, you should have the latest docker packages installed. you can use fo
 sudo docker -v
 ```
 
-## Step 2 Implementation of Application using Python Code app.py and docker file
+## Step 2 Implementation of Application using Python Code app.py and Dockerfile
 We have been written our own implementation of Rail Fence Cipher application using python code and Dockerfile provided by Instructor.
 Anyone wish to access to all file could also download them from Canvas through the INCS 741 Group Assignment Submission Part. 
 
@@ -121,4 +121,4 @@ If you want to remove the Docker image, you could use the `docker rmi` command:
 ```
 sudo docker rmi rf-docker
 ```
-Those commands allows you to manage Docker containers for your application using a Docker file. 
+Those commands allows you to manage Docker containers for your application using a Dockerfile. 
