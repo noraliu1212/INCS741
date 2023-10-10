@@ -1,6 +1,7 @@
 # INCS741 Group Assignment: Implementation of Rail Fence Cipher 
 # README.md file Group Memembers: Nora Liu, Parker Cheng, Yejun Wang
 Note: The pictures attached under the README.md could be lost due to missing directory (you may not able to find the proper directory of images), in such case, please click the link to gain full access to images: https://github.com/noraliu1212/INCS741/blob/main/README.md 
+
 ## Step1 Installation Docker
 Open the terminal in your Virtual Machine; we are using Ubuntu 20.04 Desktop LTS, use following command lines to install docker: 
 
@@ -23,7 +24,7 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 ```
 sudo add-apt-repository
 ``` 
-5. install from the Docker repo
+5. Install from the Docker repo
 ```
 apt-cache policy docker-ce
 ```
@@ -52,11 +53,11 @@ Use `cd` command to change the directory to the required dir
 
 <img width="161" alt="Screenshot 2023-10-09 172212" src="https://github.com/Parkerpupppp/741-readme/assets/123425669/ec269c4c-749a-4f0e-9a11-ce1ac53071a7">
 
-Use the next command to build the docker image
+Use the next command to build the Docker image
 ```
 sudo docker build --tag rf-docker
 ``` 
-You could use command to check if you have the docker image ready
+You could use command to check if you have the Docker image ready
 ```
 sudo docker images
 ```
@@ -65,7 +66,7 @@ You will see something like this
 <img width="372" alt="Screenshot 2023-10-09 172716" src="https://github.com/Parkerpupppp/741-readme/assets/123425669/11ddb33d-8cbb-40c7-a8df-600dae3759f1">
 
 ## Step 4 Run a Docker Container
-Once the image is built, you can run a Docker container from it using the docker run command(Linux):
+Once the image is built, you can run a Docker container from it using the  `docker run` command(Linux):
 ```
 sudo docker run -p 5000:5000 rf-docker 
 ```
