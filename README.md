@@ -91,7 +91,7 @@ Here is the application interface looks like:
 ![Application Interface](https://github.com/noraliu1212/INCS741/blob/main/Application%20Interface.png)
 
 ### Manual of Using the Rail Fence Cipher Application
-#### Note: Before performing encryption or decryption, ensure that all input boxes are cleared.
+>Note: Before performing encryption or decryption, ensure that all input boxes are cleared.
 #### Encryption:
 To encrypt a message using the Rail Fence Cipher:
 
