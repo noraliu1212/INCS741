@@ -20,8 +20,9 @@ Here `127.0.0.1` is the IP address of the Virtual Box which is configured in Ubu
 ```
 ifconfig
 ```
-Here is the application interface looks like: 
-![Application interface](Application Interface.png)
+Here is the application interface looks like:
+
+![Application Interface](https://github.com/noraliu1212/INCS741/blob/main/Application%20Interface.png)
 
 ### Manual of Using the Rail Fence Cipher Application
 #### Note: Before performing encryption or decryption, ensure that all input boxes are cleared.
