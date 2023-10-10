@@ -1,6 +1,6 @@
 # INCS741 Group Assignment: Implementation of Rail Fence Cipher 
 # README.md file Group Memembers: Nora Liu, Parker Cheng, Yejun Wang
-## Note: The pictures attached under the README.md could be lost due to missing directory (you may not able to find the proper directory of images), in such case, please click the link to gain full access to images: https://github.com/noraliu1212/INCS741/blob/main/README.md 
+Note: The pictures attached under the README.md could be lost due to missing directory (you may not able to find the proper directory of images), in such case, please click the link to gain full access to images: https://github.com/noraliu1212/INCS741/blob/main/README.md 
 ## Step1 Installation Docker
 Open the terminal in your Virtual Machine; we are using Ubuntu 20.04 Desktop LTS, use following command lines to install docker: 
 
@@ -44,9 +44,9 @@ Anyone wish to access to all file could also download them from Canvas through t
 
 ## Step 3 Build Docker Images
 
-We need to build docker images using our docker file.
+We need to build docker images using our Dockerfile.
 
-First, we should go to the directory where we have our docker file.
+First, we should go to the directory where we have our Dockerfile.
 
 Use `cd` command to change the directory to the required dir
 
