@@ -38,7 +38,7 @@ sudo docker -v
 ```
 
 ## Step 2 Implementation of Application using Python Code app.py and docker file
-We have been write our own implementation of Rail Fence Cipher application using python code and Docker file provided by Instructor and we have been uploaded python code and docker file on a website for easier access. Anyone wish to access to all file could also download them from Canvas through the INCS 741 Group Assignment Submission Part. 
+We have been written our own implementation of Rail Fence Cipher application using python code and Docker file provided by Instructor and we have been uploaded python code and docker file on a website for easier access. Anyone wish to access to all file could also download them from Canvas through the INCS 741 Group Assignment Submission Part. 
 
 For quick access, you could also download them from `http://34.28.177.100:3333/` The necessary files are under data directory
 
