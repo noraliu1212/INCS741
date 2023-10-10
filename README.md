@@ -37,16 +37,10 @@ After this, you should have the latest docker packages installed. you can use fo
 sudo docker -v
 ```
 
-## Step 2 Download Application Python Code app.py and docker file
+## Step 2 Implementation of Application using Python Code app.py and docker file
+We have been write our own implementation of Rail Fence Cipher application using python code and Docker file provided by Instructor and we have been uploaded python code and docker file on a website for easier access. Anyone wish to access to all file could also download them from Canvas through the INCS 741 Group Assignment Submission Part. 
 
-You can download them from `http://34.28.177.100:3333/` Using following login information: 
-
-```
-username:1
-password:1
-```
-
-The necessary files are under data directory
+For quick access, you could also download them from `http://34.28.177.100:3333/` The necessary files are under data directory
 
 <img width="458" alt="Screenshot 2023-10-09 162358" src="https://github.com/Parkerpupppp/741-readme/assets/123425669/fcb20913-5bc7-4884-98df-ce62d61ee8ab">
 
