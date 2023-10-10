@@ -50,21 +50,19 @@ We need to build docker images using our Dockerfile.
 
 First, we should go to the directory where we have our Dockerfile.
 
-Use `cd` command to change the directory to the required dir
-
-<img width="161" alt="Screenshot 2023-10-09 172212" src="https://github.com/Parkerpupppp/741-readme/assets/123425669/ec269c4c-749a-4f0e-9a11-ce1ac53071a7">
+Use `cd` command to change the directory to the required directory.
 
 Use the next command to build the Docker image
 ```
 sudo docker build --tag rf-docker
 ``` 
-You could use command to check if you have the Docker image ready
+You could use `docker images` command to check if you have the Docker image ready
 ```
 sudo docker images
 ```
 You will see something like this
 
-<img width="372" alt="Screenshot 2023-10-09 172716" src="https://github.com/Parkerpupppp/741-readme/assets/123425669/11ddb33d-8cbb-40c7-a8df-600dae3759f1">
+![docker_build_screenshot](https://github.com/noraliu1212/INCS741/blob/main/docker_build.png)
 
 ## Step 4 Run a Docker Container
 Once the image is built, you can run a Docker container from it using the  `docker run` command(Linux):
@@ -72,6 +70,9 @@ Once the image is built, you can run a Docker container from it using the  `dock
 sudo docker run -p 5000:5000 rf-docker 
 ```
 `sudo` indicates running Docker as the superuser, `docker run` command to create and run a Docker container. `-p 5000:5000` specifies port mapping, this part of command tells Docker to map port 5000 on your host machine to port 5000 in the Docker container. This allowing external access to the Rail Fence Cipher application running inside the container. `rf-docker` is the Docker image that was created before. 
+
+You will see something like this
+![docker_run_screenshot](https://github.com/noraliu1212/INCS741/blob/main/docker_run.png)
 
 ## Step 5 Access to Rail Fence Cipher Application
 After the initiation of Docker Container, you can access the Rail Fence Cipher through any web browser(for example, FireFox). The application will run inside the Docker container as per Dockerfile's instruction. 
