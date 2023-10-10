@@ -96,6 +96,7 @@ Here is the application interface looks like:
 > [!NOTE]
 > Before performing encryption or decryption, ensure that all input boxes are cleared.
 > The Rail Fence Cipher Application is case insensetive.
+> The Rail Fence Cipher Application is space sensetive, Application will treat text with space and without space differently. 
 
 #### Encryption:
 To encrypt a message using the Rail Fence Cipher:
