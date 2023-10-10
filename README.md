@@ -1,6 +1,7 @@
 # INCS741 Group Assignment: Implementation of Rail Fence Cipher 
 # README.md file Group Memembers: Nora Liu, Parker Cheng, Yejun Wang
-Note: The pictures attached under the README.md could be lost due to missing directory (you may not able to find the proper directory of images), in such case, please click the link to gain full access to images: https://github.com/noraliu1212/INCS741/blob/main/README.md 
+> [!NOTE]
+> The pictures attached under the README.md could be lost due to missing directory (you may not able to find the proper directory of images), in such case, please click the link to gain full access to images: https://github.com/noraliu1212/INCS741/blob/main/README.md 
 
 ## Step1 Installation Docker
 Open the terminal in your Virtual Machine; we are using Ubuntu 20.04 Desktop LTS, use following command lines to install docker: 
@@ -92,7 +93,8 @@ Here is the application interface looks like:
 
 ### Manual of Using the Rail Fence Cipher Application
 
-> Note: Before performing encryption or decryption, ensure that all input boxes are cleared.
+> [!NOTE]
+> Before performing encryption or decryption, ensure that all input boxes are cleared.
 
 #### Encryption:
 To encrypt a message using the Rail Fence Cipher:
