@@ -113,7 +113,7 @@ To decrypt a Rail Fence Cipher message:
 
 4. The decrypted plaintext will be displayed in the top box.
 
-### Step 6(Optional) Cleanup
+### Step 6 (Optional) Cleanup
 If you want to stop the Docker container, you could use `Ctrl + c` to stop.
 If you want to remove the Docker image, you could use the `docker rmi` command:
 ```
