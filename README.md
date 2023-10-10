@@ -122,13 +122,13 @@ To decrypt a Rail Fence Cipher message:
 
 ### Example of Using Rail Fence Cipher Application
 #### Encryption
-To encrypt a Plain Text message: *Thisisaexampleofhowtoencryptplaintext* with D value of 2 and R value of 4, firstly place the plain text in the top box and then adjust the D and R value. After setting up the plain text message and key values (D and R), click the "Encrypt/Decrypt" button. The resulting ciphertext appears in the bottom box which is: *thnptanhotlpeciweelxrstxoaayiotfimpse*
+To encrypt a Plain Text message: **Thisisaexampleofhowtoencryptplaintext** with D value of 2 and R value of 4, firstly place the plain text in the top box and then adjust the D and R value. After setting up the plain text message and key values (D and R), click the "Encrypt/Decrypt" button. The resulting ciphertext appears in the bottom box which is: **thnptanhotlpeciweelxrstxoaayiotfimpse**
 
 ![example_1](https://github.com/noraliu1212/INCS741/blob/main/example_1.png)
 
 
 #### Decryption
-To decrypt a Cipher Text message: *aeyoedpxeeaehntolicrfpwrtotthohcrtpmex* with D value of 4 and R value of 6, firstly place the cipher text in the bottom box and then adjust the D and R value. After setting up the cipher text message and key values (D and R), click the "Encrypt/Decrypt" button. The resulting plaintext appears in the top box which is: *anotherexampleofhowtodecryptciphertext*
+To decrypt a Cipher Text message: **aeyoedpxeeaehntolicrfpwrtotthohcrtpmex** with D value of 4 and R value of 6, firstly place the cipher text in the bottom box and then adjust the D and R value. After setting up the cipher text message and key values (D and R), click the "Encrypt/Decrypt" button. The resulting plaintext appears in the top box which is: **anotherexampleofhowtodecryptciphertext**
 
 ![example_2](https://github.com/noraliu1212/INCS741/blob/main/example_2.png)
 
